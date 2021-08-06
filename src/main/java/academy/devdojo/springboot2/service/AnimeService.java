@@ -11,7 +11,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 @Service
 public class AnimeService {
-    private static List<Anime> animes;
+    private static final List<Anime> animes;
 
     static {
         animes = new ArrayList<>(List.of(new Anime(1L, "Dragon Ball"), new Anime(2L, "One Piece")));
