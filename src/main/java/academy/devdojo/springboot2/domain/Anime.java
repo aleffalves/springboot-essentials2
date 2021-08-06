@@ -6,5 +6,7 @@ import lombok.Data;
 @AllArgsConstructor
 @Data
 public class Anime {
+    private Long id;
     private String name;
+
 }
